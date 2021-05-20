@@ -76,7 +76,7 @@ object Functions extends App {
 
     isPrimeUntil(a/2)
   }
-  println(isPrime(5));
+  println(isPrime(5))
 
   println(isPrime(2))
 

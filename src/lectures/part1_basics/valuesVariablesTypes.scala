@@ -17,7 +17,7 @@ object valuesVariablesTypes extends App {
   val aShort:Short = 12345
   val aLong: Long = 12345678909863L    //we can add as big value beyond the limit, but for that must add L at the end as in the case of float in java
   val aFloat: Float = 3.76f            //if we remove the f, then compiler will complaint that it is not float, it is a double
-  val aDouble: Double =5.893;
+  val aDouble: Double =5.893
 
   //Variables
   var aVariable: Int = 2   // can be reassigned
