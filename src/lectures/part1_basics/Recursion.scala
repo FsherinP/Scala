@@ -13,7 +13,7 @@ object Recursion extends App {
       result
     }
 // that is all the preparations in recursive functions are stored into a small stack memory
-  println(factorial(10))
+  println(factorial(10));
 //  println(factorial(50000))  - here this will throw stack over flow error because of the high recursive depth. THis is actually bad, we can't use recursion when
 //  we want to iterate more than hundreds.
 //  The solution is write code in a smarter way, that is adapt another concept for the same solution

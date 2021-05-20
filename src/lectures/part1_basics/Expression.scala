@@ -30,7 +30,7 @@ object Expression extends App {    //this will make the application runnable in 
 
   val aNewVariable = (aVariable = 3)   // here aNewVariable is a unit --- special in Scala, it is similar to void in other languages
   //reassigning a value in scala is a side effect (aVariable), that is side effects are those which return unit like println(), while and reassigning
-  println(aNewVariable)     //the only value of this unit is ()
+  println(aNewVariable);     //the only value of this unit is ()
 
 
   // CODE BLOCK
